@@ -98,7 +98,7 @@ const Hero = () => {
               Посмотреть галерею
             </button>
             <a
-              href="https://wa.me/79993601089"
+              href="https://wa.me/79649461377"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-gray-700 dark:text-gray-300 px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 border border-gray-200 dark:border-gray-700"
