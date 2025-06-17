@@ -1,5 +1,5 @@
 import React from 'react';
-import { Car, Shield, Snowflake, Users, Fuel } from 'lucide-react';
+import { Car, Shield, Snowflake, Users, Fuel, Clock, MapPin, Calendar, Ticket } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Transport = () => {
@@ -118,7 +118,7 @@ const Transport = () => {
             </motion.div>
           </div>
 
-          {/* Services List - теперь на всю ширину */}
+          {/* Services List - теперь в две колонки */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -126,26 +126,58 @@ const Transport = () => {
             viewport={{ once: true }}
             className="mt-12"
           >
-            <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl w-full">
-              <h4 className="font-semibold text-gray-800 dark:text-white mb-4">Информация по Экскурсии:</h4>
-              <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Город Гагра</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Горная Река</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Рицинский реликтовый национальный парк</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Озеро Рица</span>
-                </li>
-              </ul>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Левая колонка */}
+              <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                  <MapPin className="w-5 h-5 mr-2 text-primary-500" />
+                  Маршрут экскурсии:
+                </h4>
+                <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Город Гагра</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Горная Река</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Рицинский реликтовый национальный парк</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Озеро Рица</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Правая колонка */}
+              <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                  <Clock className="w-5 h-5 mr-2 text-primary-500" />
+                  Детали экскурсии:
+                </h4>
+                <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Продолжительность: 6-8 часов</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Время отправления: 9:00 утра</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Сезон: круглый год</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Стоимость: от 5000 руб./группа</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </motion.div>
         </div>
