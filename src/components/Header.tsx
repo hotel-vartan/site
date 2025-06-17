@@ -149,11 +149,11 @@ const Header = () => {
                   <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                     <div className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 mb-2">
                       <Phone size={16} />
-                      <span>+7 (840) 123-456</span>
+                      <span>+7 (964) 946-13-77</span>
                     </div>
                     <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
                       <MapPin size={16} />
-                      <span>Сухум, Абхазия</span>
+                      <span>Гагры, Абхазия</span>
                     </div>
                   </div>
                 </nav>
