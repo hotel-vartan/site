@@ -7,7 +7,7 @@ const Gallery = () => {
 
   const images = [
     {
-      src: 'https://media.discordapp.net/attachments/1247239991088648223/1383981455264186420/6d9f9a7f-7597-4d5c-a342-a33ac0cae7ef.jpg?ex=6850c4ac&is=684f732c&hm=feb7502219a27722a8d63a835a92396da8bc7ded511a8138d20b2c0cc72f3325&=&format=webp&width=888&height=666',
+      src: 'https://github.com/hotel-vartan/site/blob/main/img/6d9f9a7f-7597-4d5c-a342-a33ac0cae7ef.jpg',
       title: 'Вид на море с террасы',
       category: 'Виды'
     },
