@@ -17,7 +17,7 @@ const Transport = () => {
     {
       icon: Users,
       title: 'Вместимость',
-      description: 'До 8 пассажиров в комфортабельном авто'
+      description: 'До 7 пассажиров в комфортабельном авто'
     },
     {
       icon: Fuel,
@@ -54,13 +54,13 @@ const Transport = () => {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://media.discordapp.net/attachments/1247239991088648223/1383975677275144262/1870e017-480f-412d-84d6-cf336ad1c1f5.jpg?ex=6850bf4a&is=684f6dca&hm=c5a1a0ba09a5b1a80b031182efa594b0c7b6105aa48055fcb5e51993e706da7a&=&format=webp&width=998&height=666"
+                  src="https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/1870e017-480f-412d-84d6-cf336ad1c1f5.jpg"
                   alt="Комфортабельный автомобиль"
                   className="w-full h-80 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                   <div className="p-6 text-white">
-                    <h4 className="text-xl font-bold mb-2">Микроавтобус Mercedes</h4>
+                    <h4 className="text-xl font-bold mb-2">Volkswagen Transporter</h4>
                     <p className="text-sm opacity-90">
                       Комфортабельный микроавтобус для групповых поездок и экскурсий
                     </p>
