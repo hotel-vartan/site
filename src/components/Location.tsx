@@ -73,7 +73,7 @@ const Location = () => {
                 title="Карта расположения отеля"
               ></iframe>
             </div>
-
+          </motion.div>
 
 
           {/* Information */}
@@ -84,22 +84,6 @@ const Location = () => {
             viewport={{ once: true }}
             className="order-1 lg:order-2"
           >
-
-            {/* Address */}
-            <div className="p-6 bg-primary-50 dark:bg-gray-700 rounded-xl">
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-6 h-6 text-primary-500 dark:text-primary-400 mt-1" />
-                <div>
-                  <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Наш адрес</h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    ул. Агумаа, 12<br />
-                    г. Сухум, Абхазия<br />
-                    384900
-                  </p>
-                </div>
-              </div>
-            </div>
-          </motion.div>
             
             {/* Nearby Attractions */}
             <div>
@@ -120,6 +104,22 @@ const Location = () => {
                 ))}
               </div>
             </div>
+
+                      {/* Address */}
+            <div className="p-6 bg-primary-50 dark:bg-gray-700 rounded-xl">
+              <div className="flex items-start space-x-3">
+                <MapPin className="w-6 h-6 text-primary-500 dark:text-primary-400 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Наш адрес</h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    ул. Агумаа, 12<br />
+                    г. Сухум, Абхазия<br />
+                    384900
+                  </p>
+                </div>
+              </div>
+            </div>
+            
           </motion.div>
         </div>
       </div>
