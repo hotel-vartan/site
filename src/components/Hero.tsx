@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   const stats = [
-    { icon: Star, value: '4.9', label: 'Рейтинг' },
+    { icon: Star, value: '4.5', label: 'Рейтинг' },
     { icon: Award, value: '15+', label: 'Лет опыта' },
     { icon: Users, value: '5000+', label: 'Довольных гостей' },
   ];
