@@ -127,23 +127,23 @@ const Transport = () => {
             className="mt-12"
           >
             <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl w-full">
-              <h4 className="font-semibold text-gray-800 dark:text-white mb-4">Услуги трансфера:</h4>
+              <h4 className="font-semibold text-gray-800 dark:text-white mb-4">Информация по Экскурсии:</h4>
               <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Встреча в аэропорту с табличкой</span>
+                  <span>Город Гагра</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Помощь с багажом</span>
+                  <span>Горная Река</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Бесплатная вода в дороге</span>
+                  <span>Рицинский реликтовый национальный парк</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                  <span>Информация о достопримечательностях</span>
+                  <span>Озеро Рица</span>
                 </li>
               </ul>
             </div>
