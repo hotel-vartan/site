@@ -14,10 +14,11 @@ const Footer = () => {
 
   const services = [
     'Бронирование номеров',
-    'Трансфер из аэропорта',
-    'Прокат автомобилей',
-    'Ресторан и бар',
-    'Конференц-зал'
+    'Встреча в аэропорту',
+    'Помощь с багажом',
+    'Информация о достопримечательностях',
+    'Экскурсия по Абхазии'
+    
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -43,7 +44,7 @@ const Footer = () => {
                 <span className="text-white font-bold text-lg">AH</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Абхазия Отели</h3>
+                <h3 className="text-xl font-bold">Гостевой дом «Вартан»</h3>
                 <p className="text-gray-400 text-sm">Райский отдых у моря</p>
               </div>
             </div>
@@ -104,20 +105,19 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary-400 mt-0.5" />
                 <div className="text-gray-400 text-sm">
-                  ул. Агумаа, 12<br />
-                  г. Сухум, Абхазия<br />
-                  384900
+                  ул. Адыгаа, 153<br />
+                  г. Гагра, Абхазия<br />
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-400" />
-                <span className="text-gray-400">+7 (999) 360-10-89</span>
+                <span className="text-gray-400">+7 (964) 946-13-77</span>
               </div>
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-primary-400 mt-0.5" />
                 <div className="text-gray-400 text-sm">
                   Пн-Пт: 9:00 - 22:00<br />
-                  Сб-Вс: 10:00 - 21:00
+                  Сб-Вс: 10:00 - 22:00
                 </div>
               </div>
             </div>
@@ -132,19 +132,8 @@ const Footer = () => {
           viewport={{ once: true }}
           className="border-t border-gray-800 dark:border-gray-700 mt-12 pt-8"
         >
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Абхазия Отели. Все права защищены.
-            </p>
-            <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <button className="hover:text-white transition-colors">
-                Политика конфиденциальности
-              </button>
-              <button className="hover:text-white transition-colors">
-                Условия использования
-              </button>
-            </div>
-          </div>
+
+          
         </motion.div>
       </div>
     </footer>
