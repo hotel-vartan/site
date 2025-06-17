@@ -136,11 +136,11 @@ const Transport = () => {
                 <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                    <span>Город Гагра</span>
+                    <span>Голубое озеро</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                    <span>Горная Река</span>
+                    <span>Юпшарский каньон («Каменный мешок»)</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
@@ -150,31 +150,55 @@ const Transport = () => {
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
                     <span>Озеро Рица</span>
                   </li>
+                                    <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Дача Сталина (по желанию)</span>
+                  </li>
+                                    <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Озеро Псырцха</span>
+                  </li>
+                                    <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Приморский парк с Лебединым озером</span>
+                  </li>
                 </ul>
               </div>
 
               {/* Правая колонка */}
               <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl">
                 <h4 className="font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
-                  <Clock className="w-5 h-5 mr-2 text-primary-500" />
-                  Детали экскурсии:
+                  <MapPin className="w-5 h-5 mr-2 text-primary-500" />
+                  Маршрут экскурсии:
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                    <span>Продолжительность: 6-8 часов</span>
+                    <span>Ресторан «Гагрипш»</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                    <span>Время отправления: 9:00 утра</span>
+                    <span>Подвесной мост на реке Бзыбь</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                    <span>Сезон: круглый год</span>
+                    <span>Водопад «Девичьи слёзы»</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
-                    <span>Стоимость: от 5000 руб./группа</span>
+                    <span>Водопад «Мужские слёзы»</span>
+                  </li>
+                                    <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Новоафонский мужской монастырь</span>
+                  </li>
+                                    <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Дегустация вина, мёда и сыра</span>
+                  </li>
+                                    <li className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-primary-500 dark:bg-primary-400 rounded-full"></div>
+                    <span>Новоафонская пещера</span>
                   </li>
                 </ul>
               </div>
