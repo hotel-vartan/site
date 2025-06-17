@@ -16,7 +16,7 @@ const Footer = () => {
     'Бронирование номеров',
     'Встреча в аэропорту',
     'Помощь с багажом',
-    'Информация о достопримечательностях',
+    'Инфо о достопримечательностях',
     'Экскурсия по Абхазии'
     
   ];
@@ -125,16 +125,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="border-t border-gray-800 dark:border-gray-700 mt-12 pt-8"
-        >
 
-          
-        </motion.div>
       </div>
     </footer>
   );
