@@ -8,43 +8,43 @@ const Gallery = () => {
   const images = [
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/6d9f9a7f-7597-4d5c-a342-a33ac0cae7ef.jpg',
-      title: 'Вид на море с террасы',
-      category: 'Виды'
+      title: 'Гостевой дом',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/46bd7a41-57ef-450c-b569-a5a9aade5432.jpg',
-      title: 'Уютный номер люкс',
-      category: 'Номера'
+      title: 'Панорамные окна в номере',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/2d21337a-442f-42c9-b484-8a563e3455ff.jpg',
-      title: 'Ресторан с панорамным видом',
-      category: 'Ресторан'
+      title: 'Уличная кухня',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/dac3849f-9440-4af8-93e0-9ffb148599c8.jpg',
-      title: 'Бассейн на крыше',
-      category: 'Бассейн'
+      title: 'Бассейн на территории',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/58d7f238-1049-425c-ab34-f821e16d3c6b.jpg',
-      title: 'Спальня с видом на горы',
-      category: 'Номера'
+      title: 'Уютный номер',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/6a61d3af-07d3-4ba8-afef-3b87f287703d.jpg',
-      title: 'Семейный номер',
-      category: 'Номера'
+      title: 'Уютный номер',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/8617dceb-5817-450f-84fd-2f20ac25bcdf.jpg',
-      title: 'Толкан',
-      category: 'Пляж'
+      title: 'Уборная',
+      category: ''
     },
     {
       src: 'https://raw.githubusercontent.com/hotel-vartan/site/refs/heads/main/img/fae57783-51b3-4561-8b20-4e4e32417851.jpg',
-      title: 'Стандартный номер',
-      category: 'Номера'
+      title: 'Терраса',
+      category: ''
     }
   ];
 
