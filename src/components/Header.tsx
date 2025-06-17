@@ -35,7 +35,7 @@ const Header = () => {
   const menuItems = [
     { id: 'hero', label: 'Главная' },
     { id: 'gallery', label: 'Галерея' },
-    { id: 'transport', label: 'Транспорт' },
+    { id: 'transport', label: 'Экскурсии' },
     { id: 'location', label: 'Расположение' },
     { id: 'contact', label: 'Контакты' },
   ];
@@ -72,7 +72,7 @@ const Header = () => {
               </div>
               <div className="min-w-0">
                 <h1 className="text-sm sm:text-lg lg:text-xl font-bold text-gray-800 dark:text-white truncate">
-                  Абхазия Отели
+                  Гостевой дом «Вартан»
                 </h1>
                 <p className="text-xs text-gray-600 dark:text-gray-400 hidden sm:block truncate">
                   Райский отдых у моря
@@ -100,7 +100,7 @@ const Header = () => {
               <div className="hidden xl:flex items-center space-x-4">
                 <div className="flex items-center space-x-2 text-gray-700 dark:text-gray-300">
                   <Phone size={16} />
-                  <span className="text-sm font-medium whitespace-nowrap">+7 (840) 123-456</span>
+                  <span className="text-sm font-medium whitespace-nowrap">+7 (964) 946-13-77</span>
                 </div>
                 <div className="w-px h-6 bg-gray-300 dark:bg-gray-600"></div>
                 <div className="flex items-center space-x-1 text-gray-600 dark:text-gray-400">
