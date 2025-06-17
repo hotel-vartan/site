@@ -74,6 +74,17 @@ const Location = () => {
               ></iframe>
             </div>
 
+
+
+          {/* Information */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="order-1 lg:order-2"
+          >
+
             {/* Address */}
             <div className="p-6 bg-primary-50 dark:bg-gray-700 rounded-xl">
               <div className="flex items-start space-x-3">
@@ -89,17 +100,7 @@ const Location = () => {
               </div>
             </div>
           </motion.div>
-
-          {/* Information */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="order-1 lg:order-2"
-          >
-
-
+            
             {/* Nearby Attractions */}
             <div>
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Рядом с отелем</h3>
