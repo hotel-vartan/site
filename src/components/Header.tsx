@@ -105,7 +105,7 @@ const Header = () => {
                 <div className="w-px h-6 bg-gray-300 dark:bg-gray-600"></div>
                 <div className="flex items-center space-x-1 text-gray-600 dark:text-gray-400">
                   <MapPin size={14} />
-                  <span className="text-sm whitespace-nowrap">Сухум, Абхазия</span>
+                  <span className="text-sm whitespace-nowrap">Гагры, Абхазия</span>
                 </div>
               </div>
 
