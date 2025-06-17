@@ -63,7 +63,7 @@ const Location = () => {
           >
             <div className="bg-gray-100 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg h-96 mb-6">
               <iframe
-                src="https://yandex.ru/maps/-/CHW8AK27"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.0701970313257!2d40.273567012254766!3d43.2709051710024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f58af11de9e9f7%3A0x509e8988d9f2f9a4!2s153%20Adygaa%20St%2C%20Gagra!5e0!3m2!1sru!2sus!4v1750159214547!5m2!1sru!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -98,34 +98,7 @@ const Location = () => {
             viewport={{ once: true }}
             className="order-1 lg:order-2"
           >
-            {/* Transport Options */}
-            <div className="mb-8">
-              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Как добраться</h3>
-              <div className="space-y-4">
-                {transportOptions.map((option, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
-                  >
-                    <div className={`w-12 h-12 ${option.color} rounded-lg flex items-center justify-center`}>
-                      <option.icon className="w-6 h-6 text-white" />
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-gray-800 dark:text-white">{option.title}</h4>
-                      <p className="text-gray-600 dark:text-gray-300 text-sm">{option.description}</p>
-                    </div>
-                    <div className="flex items-center space-x-1 text-primary-500 dark:text-primary-400">
-                      <Clock size={16} />
-                      <span className="text-sm font-medium">{option.time}</span>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
+
 
             {/* Nearby Attractions */}
             <div>
