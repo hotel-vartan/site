@@ -16,7 +16,7 @@ const Contact = () => {
     
     // Формируем сообщение для WhatsApp
     const message = `Здравствуйте! Меня зовут ${formData.name}.%0A%0AТелефон: ${formData.phone}%0A%0AСообщение: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/79993601089?text=${message}`;
+    const whatsappUrl = `https://wa.me/79649461377?text=${message}`;
     
     // Открываем WhatsApp
     window.open(whatsappUrl, '_blank');
@@ -39,20 +39,20 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Телефон',
-      value: '+7 (999) 360-10-89',
+      value: '+7 (964) 946-13-77',
       color: 'bg-blue-500'
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      value: '+7 (999) 360-10-89',
-      link: 'https://wa.me/79993601089?text=Здравствуйте! Интересует бронирование номера.',
+      value: '+7 (964) 946-13-77',
+      link: 'https://wa.me/79649461377?text=Здравствуйте! Интересует бронирование номера.',
       color: 'bg-green-500'
     },
     {
       icon: MapPin,
       title: 'Адрес',
-      value: 'ул. Агумаа, 12, Сухум',
+      value: 'ул. Адыгаа, 153, Гагра',
       link: '#location',
       color: 'bg-purple-500'
     }
