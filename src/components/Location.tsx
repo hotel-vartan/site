@@ -112,9 +112,8 @@ const Location = () => {
                 <div>
                   <h3 className="font-semibold text-gray-800 dark:text-white mb-2">Наш адрес</h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    ул. Агумаа, 12<br />
-                    г. Сухум, Абхазия<br />
-                    384900
+                    ул. Адыгаа, 153<br />
+                    г. Гагра, Абхазия<br />
                   </p>
                 </div>
               </div>
