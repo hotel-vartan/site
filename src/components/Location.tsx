@@ -63,7 +63,7 @@ const Location = () => {
           >
             <div className="bg-gray-100 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg h-96 mb-6">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11904.41331978369!2d40.994739299999995!3d42.8746212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405a5ed6b8c2f7b1%3A0x8b5c6e6fede79c7e!2z0KHRg9GF0YPQvCwg0JDQsdGF0LDQt9C40Y8!5e0!3m2!1sru!2sru!4v1635789012345"
+                src="https://yandex.ru/maps/-/CHW8AK27"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
