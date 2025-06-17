@@ -88,7 +88,7 @@ const Location = () => {
             {/* Nearby Attractions */}
             <div>
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Рядом с отелем</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 {nearbyAttractions.map((attraction, index) => (
                   <motion.div
                     key={index}
