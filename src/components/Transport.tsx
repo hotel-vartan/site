@@ -77,13 +77,13 @@ const Transport = () => {
                 className="text-center"
               >
                 <a
-                  href="https://wa.me/79649461377?text=Здравствуйте! Интересует трансфер."
+                  href="https://wa.me/79649461377?text=Здравствуйте! Интересует Экскурсия."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
                 >
                   <Car className="w-5 h-5" />
-                  <span>Заказать трансфер</span>
+                  <span>Заказать Экскурсию</span>
                 </a>
               </motion.div>
             </motion.div>
