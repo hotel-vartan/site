@@ -29,7 +29,7 @@ const Location = () => {
 
   const nearbyAttractions = [
     { name: 'Пляж', distance: '15 мин пешком' },
-    { name: 'Абхазский национальный дельфинарий', distance: '11 мин пешком' },
+    { name: 'Национальный дельфинарий', distance: '11 мин пешком' },
     { name: 'Гагрский рынок', distance: '14 мин пешком' },
     { name: 'Аквапарк ', distance: '18 мин пешком' },
     { name: 'Парк Славы', distance: '20 мин пешком' },
